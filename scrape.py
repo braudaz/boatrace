@@ -33,6 +33,8 @@ def scrape(url, file):
 
         return True
     else:
+        print(response)
+        input('###')
         return False
 
 if not os.path.exists('./download'): os.makedirs('./download')
