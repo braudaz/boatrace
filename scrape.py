@@ -30,12 +30,8 @@ def scrape(url, file):
     if response.status_code == 200:
         with open(file, 'wb') as file:
             file.write(response.content)
-
-        return True
-    else:
-        print(response)
-        input('###')
-        return False
+    
+    return response
 
 if not os.path.exists('./download'): os.makedirs('./download')
 
@@ -56,11 +52,17 @@ if scrape_dates:
             url = target_url.format(date = date.strftime('%Y%m%d'))
             file = './download/{}_{}.xml'.format(target_name, date.strftime('%Y%m%d'))
 
-            ok = scrape(url, file)
+            response = scrape(url, file)
 
-            if ok:
+            if response.status_code == 200:
                 if target_name == 'result': valid_dates.append(date)
                 print(f'- got {url}')
+            elif response.status_code != 404:
+                print(response.status_code)
+                print(response.content)
+                input('$$$ check please')
+            else:
+                print(f'# skipped {url}')
 
     with open('./download/__valid_dates__.dat', 'wb') as fp:
         pickle.dump(valid_dates, fp)
