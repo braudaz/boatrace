@@ -14,14 +14,14 @@ username = 'sanspo02'
 password = 'DZZA4828'
 
 date_targets = [
-    ('result', 'http://xml-sv.boatrace.jp/race/{date}/[jcd]/result.xml'),
-    ('before', 'http://xml-sv.boatrace.jp/race/{date}/[jcd]/before_info.xml'),
-    ('award', 'http://xml-sv.boatrace.jp/race/{date}/race_har.xml')
+    ('result', 'https://xml-sv.boatrace.jp/race/{date}/[jcd]/result.xml'),
+    ('before', 'https://xml-sv.boatrace.jp/race/{date}/[jcd]/before_info.xml'),
+    ('award', 'https://xml-sv.boatrace.jp/race/{date}/race_har.xml')
 ]
 
 player_targets = [
-    ('course', 'http://xml-sv.boatrace.jp/profile/{player}/course.xml'),
-    ('three', 'http://xml-sv.boatrace.jp/profile/{player}/3setu.xml')    
+    ('course', 'https://xml-sv.boatrace.jp/profile/{player}/course.xml'),
+    ('three', 'https://xml-sv.boatrace.jp/profile/{player}/3setu.xml')    
 ]
 
 def scrape(url, file):
