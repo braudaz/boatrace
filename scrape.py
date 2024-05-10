@@ -7,7 +7,7 @@ import os
 scrape_dates = True
 scrape_players = True
 
-only_18 = True
+only_18 = False
 
 start_date = datetime(2012, 4, 12)
 end_date = datetime(2024, 5, 10)
