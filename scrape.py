@@ -9,8 +9,7 @@ scrape_players = True
 
 only_18 = True
 
-#start_date = datetime(2012, 4, 12)
-start_date = datetime(2024, 1, 1)
+start_date = datetime(2012, 4, 12)
 end_date = datetime(2024, 5, 10)
 
 username = 'sanspo02'
