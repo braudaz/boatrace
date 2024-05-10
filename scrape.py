@@ -52,7 +52,7 @@ if scrape_dates:
 
         for date in all_dates:
             url = target_url.format(date = date.strftime('%Y%m%d'))
-            file = f'./download/{target_name}_{date.strftime('%Y%m%d')}.xml'
+            file = './download/{}_{}.xml'.format(target_name, date.strftime('%Y%m%d'))
 
             ok = scrape(url, file)
 
