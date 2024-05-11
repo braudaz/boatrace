@@ -98,14 +98,18 @@ if scrape_players:
                 valid_dates = pickle.load(fp)
 
             for date in tqdm(valid_dates, desc = f'collect players from {place}'):
+                old_count = len(valid_players)
                 file = './download/result_{}_{}.xml'.format(place, date.strftime('%Y%m%d'))
 
                 with open(file, 'r', encoding = 'utf-8') as fp:
                     text = fp.read()
 
-                for occur in re.finditer(r'\<toban group=\"\w*\"\>([0-9]+)</toban>', text)
+                for occur in re.finditer(r'\<toban group=\"\w*\"\>([0-9]+)</toban>', text):
                     p = occur.group(1)
                     valid_players.add(p)
+
+                found_count = len(valid_players) - old_count
+                print(f'- found {found_count} players from {file}')
 
         with open('./download/__players__.dat', 'wb') as fp:
             pickle.dump(valid_players, fp)
