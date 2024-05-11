@@ -104,7 +104,7 @@ if scrape_players:
                 with open(file, 'r', encoding = 'utf-8') as fp:
                     text = fp.read()
 
-                for occur in re.finditer(r'\<toban group=\"\w*\"\>([0-9]+)</toban>', text):
+                for occur in re.finditer(r'\<toban group=\"\w*\"\>([0-9]+)\<\/toban\>', text):
                     p = occur.group(1)
                     valid_players.add(p)
 
