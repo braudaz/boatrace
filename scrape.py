@@ -98,8 +98,8 @@ if scrape_players:
                 valid_dates = pickle.load(fp)
 
             for date in tqdm(valid_dates, desc = f'collect players from {place}'):
-                old_count = len(valid_players)
                 file = './download/result_{}_{}.xml'.format(place, date.strftime('%Y%m%d'))
+                count = 0
 
                 with open(file, 'r', encoding = 'utf-8') as fp:
                     text = fp.read()
@@ -108,8 +108,9 @@ if scrape_players:
                     p = occur.group(1)
                     valid_players.add(p)
 
-                found_count = len(valid_players) - old_count
-                print(f'- found {found_count} players from {file}')
+                    count += 1
+
+                print(f'- found {count} players from {file}: total {len(valid_players)}')
 
         with open('./download/__players__.dat', 'wb') as fp:
             pickle.dump(valid_players, fp)
