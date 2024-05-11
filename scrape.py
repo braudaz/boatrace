@@ -1,10 +1,12 @@
 from datetime import datetime, timedelta
 from requests.auth import HTTPBasicAuth
+from tqdm import tqdm
 import requests
 import pickle
 import os
+import re
 
-scrape_dates = True
+scrape_dates = False
 scrape_players = True
 
 only_18 = False
@@ -49,10 +51,10 @@ if not only_18:
 else:
     all_places = ['18']
 
-for place in all_places:
-    valid_dates = []
+if scrape_dates:    
+    for place in all_places:
+        valid_dates = []
 
-    if scrape_dates:
         for target_name, target_url in date_targets:
             if target_name == 'result':
                 date, all_dates = start_date, []
@@ -71,6 +73,7 @@ for place in all_places:
 
                 if response.status_code == 200:
                     if target_name == 'result': valid_dates.append(date)
+
                     print(f'- got {url}')
                 elif response.status_code != 404:
                     print(response.status_code)
@@ -81,8 +84,49 @@ for place in all_places:
 
         with open(f'./download/__valid_dates_{place}__.dat', 'wb') as fp:
             pickle.dump(valid_dates, fp)
-    else:
-        with open(f'./download/__valid_dates_{place}__.dat', 'rb') as fp:
-            valid_dates = pickle.load(fp)
 
-    print(f'- total {len(valid_dates)} valid dates found.')
+        print(f'- total {len(valid_dates)} valid dates found.')
+
+if scrape_players:
+    valid_players = set()
+
+    if not os.path.exists('./download/__players__.dat'):
+        for place in ['{:02}'.format(idx + 1) for idx in range(24)]:
+            if not os.path.exists(f'./download/__valid_dates_{place}__.dat'): continue
+
+            with open(f'./download/__valid_dates_{place}__.dat', 'rb') as fp:
+                valid_dates = pickle.load(fp)
+
+            for date in tqdm(valid_dates, desc = f'collect players from {place}'):
+                file = './download/result_{}_{}.xml'.format(place, date.strftime('%Y%m%d'))
+
+                with open(file, 'r', encoding = 'utf-8') as fp:
+                    text = fp.read()
+
+                for occur in re.finditer(r'\<toban group=\"\w*\"\>([0-9]+)</toban>', text)
+                    p = occur.group(1)
+                    valid_players.add(p)
+
+        with open('./download/__players__.dat', 'wb') as fp:
+            pickle.dump(valid_players, fp)
+    else:
+        with open('./download/__players__.dat', 'rb') as fp:
+            valid_players = pickle.load(fp)
+
+    print(f'- total {len(valid_players)} valid players found.')
+
+    for target_name, target_url in player_targets:
+        for player in valid_players:
+            url = target_url.format(player = player)
+            file = './download/{}_{}.xml'.format(target_name, player)
+
+            response = scrape(url, file)
+
+            if response.status_code == 200:
+                print(f'- got {url}')
+            elif response.status_code != 404:
+                print(response.status_code)
+                print(response.content)
+                input('$$$ check please')
+            else:
+                print(f'# skipped {url}')

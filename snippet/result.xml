@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boatrace>
+  <table race_id="18_20170306">
+    <record>
+      <hdate>20170309</hdate>
+      <jcd>18</jcd>
+      <rno>01</rno>
+      <rstop name="">0</rstop>
+      <ssu>6</ssu>
+      <stime>1038</stime>
+      <htime>1041</htime>
+      <kake>1111111000000000</kake>
+      <fusei>0000000000000000</fusei>
+      <henkan>00000000</henkan>
+      <tban11>4</tban11>
+      <tban12></tban12>
+      <tban13></tban13>
+      <tban21>2</tban21>
+      <tban22></tban22>
+      <tban23></tban23>
+      <tban31>3</tban31>
+      <tban32></tban32>
+      <tban33></tban33>
+      <t_ban1>04</t_ban1>
+      <t_kin1>470</t_kin1>
+      <t_ban2></t_ban2>
+      <t_kin2>0</t_kin2>
+      <t_ban3></t_ban3>
+      <t_kin3>0</t_kin3>
+      <f_ban1>04</f_ban1>
+      <f_kin1>200</f_kin1>
+      <f_ban2>02</f_ban2>
+      <f_kin2>200</f_kin2>
+      <f_ban3></f_ban3>
+      <f_kin3>0</f_kin3>
+      <f_ban4></f_ban4>
+      <f_kin4>0</f_kin4>
+      <f_ban5></f_ban5>
+      <f_kin5>0</f_kin5>
+      <rt_ban1>42</rt_ban1>
+      <rt_kin1>3440</rt_kin1>
+      <rt_nin1>15</rt_nin1>
+      <rt_ban2></rt_ban2>
+      <rt_kin2>0</rt_kin2>
+      <rt_nin2>0</rt_nin2>
+      <rf_ban1>24</rf_ban1>
+      <rf_kin1>1400</rf_kin1>
+      <rf_nin1>7</rf_nin1>
+      <rf_ban2></rf_ban2>
+      <rf_kin2>0</rf_kin2>
+      <rf_nin2>0</rf_nin2>
+      <krf_ban1>24</krf_ban1>
+      <krf_kin1>600</krf_kin1>
+      <krf_nin1>9</krf_nin1>
+      <krf_ban2>34</krf_ban2>
+      <krf_kin2>200</krf_kin2>
+      <krf_nin2>3</krf_nin2>
+      <krf_ban3>23</krf_ban3>
+      <krf_kin3>320</krf_kin3>
+      <krf_nin3>5</krf_nin3>
+      <krf_ban4></krf_ban4>
+      <krf_kin4>0</krf_kin4>
+      <krf_nin4>0</krf_nin4>
+      <krf_ban5></krf_ban5>
+      <krf_kin5>0</krf_kin5>
+      <krf_nin5>0</krf_nin5>
+      <rt3_ban1>423</rt3_ban1>
+      <rt3_kin1>10900</rt3_kin1>
+      <rt3_nin1>46</rt3_nin1>
+      <rt3_ban2></rt3_ban2>
+      <rt3_kin2>0</rt3_kin2>
+      <rt3_nin2>0</rt3_nin2>
+      <rf3_ban1>234</rf3_ban1>
+      <rf3_kin1>820</rf3_kin1>
+      <rf3_nin1>3</rf3_nin1>
+      <rf3_ban2></rf3_ban2>
+      <rf3_kin2>0</rf3_kin2>
+      <rf3_nin2>0</rf3_nin2>
+      <tenko>晴</tenko>
+      <hako>3</hako>
+      <fuko1>南西</fuko1>
+      <fuko2>左横風</fuko2>
+      <fusoku>4</fusoku>
+      <kion>8.0</kion>
+      <suion>10.0</suion>
+      <ryusoku>000</ryusoku>
+      <suii>000</suii>
+      <mancho>0000</mancho>
+      <kancho>0000</kancho>
+      <rmei>予　　選　　　</rmei>
+      <chaku chk="1">
+        <teiban>4</teiban>
+        <toban group="39">3956</toban>
+        <name>横澤　　剛治</name>
+        <seibetsu>1</seibetsu>
+        <chk>１</chk>
+        <rtime>1'50"3</rtime>
+        <cs>4</cs>
+        <st>.24</st>
+        <skriyu></skriyu>
+        <kim>抜き</kim>
+      </chaku>
+      <chaku chk="2">
+        <teiban>2</teiban>
+        <toban group="44">4459</toban>
+        <name>片岡　　雅裕</name>
+        <seibetsu>1</seibetsu>
+        <chk>２</chk>
+        <rtime>1'50"9</rtime>
+        <cs>2</cs>
+        <st>.29</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="3">
+        <teiban>3</teiban>
+        <toban group="39">3960</toban>
+        <name>菊地　　孝平</name>
+        <seibetsu>1</seibetsu>
+        <chk>３</chk>
+        <rtime>1'53"1</rtime>
+        <cs>3</cs>
+        <st>.25</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="4">
+        <teiban>5</teiban>
+        <toban group="44">4446</toban>
+        <name>和田　　兼輔</name>
+        <seibetsu>1</seibetsu>
+        <chk>４</chk>
+        <rtime>1'54"9</rtime>
+        <cs>5</cs>
+        <st>.19</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="5">
+        <teiban>6</teiban>
+        <toban group="48">4848</toban>
+        <name>仲谷　　颯仁</name>
+        <seibetsu>1</seibetsu>
+        <chk>５</chk>
+        <rtime>      </rtime>
+        <cs>6</cs>
+        <st>.17</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="6">
+        <teiban>1</teiban>
+        <toban group="43">4396</toban>
+        <name>大田　　直弥</name>
+        <seibetsu>1</seibetsu>
+        <chk>６</chk>
+        <rtime>      </rtime>
+        <cs>1</cs>
+        <st>.44</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+    </record>
+    <record>
+      <hdate>20170309</hdate>
+      <jcd>18</jcd>
+      <rno>02</rno>
+      <rstop name="">0</rstop>
+      <ssu>6</ssu>
+      <stime>1108</stime>
+      <htime>1111</htime>
+      <kake>1111111000000000</kake>
+      <fusei>0000000000000000</fusei>
+      <henkan>00000000</henkan>
+      <tban11>1</tban11>
+      <tban12></tban12>
+      <tban13></tban13>
+      <tban21>2</tban21>
+      <tban22></tban22>
+      <tban23></tban23>
+      <tban31>4</tban31>
+      <tban32></tban32>
+      <tban33></tban33>
+      <t_ban1>01</t_ban1>
+      <t_kin1>160</t_kin1>
+      <t_ban2></t_ban2>
+      <t_kin2>0</t_kin2>
+      <t_ban3></t_ban3>
+      <t_kin3>0</t_kin3>
+      <f_ban1>01</f_ban1>
+      <f_kin1>110</f_kin1>
+      <f_ban2>02</f_ban2>
+      <f_kin2>100</f_kin2>
+      <f_ban3></f_ban3>
+      <f_kin3>0</f_kin3>
+      <f_ban4></f_ban4>
+      <f_kin4>0</f_kin4>
+      <f_ban5></f_ban5>
+      <f_kin5>0</f_kin5>
+      <rt_ban1>12</rt_ban1>
+      <rt_kin1>310</rt_kin1>
+      <rt_nin1>1</rt_nin1>
+      <rt_ban2></rt_ban2>
+      <rt_kin2>0</rt_kin2>
+      <rt_nin2>0</rt_nin2>
+      <rf_ban1>12</rf_ban1>
+      <rf_kin1>180</rf_kin1>
+      <rf_nin1>1</rf_nin1>
+      <rf_ban2></rf_ban2>
+      <rf_kin2>0</rf_kin2>
+      <rf_nin2>0</rf_nin2>
+      <krf_ban1>12</krf_ban1>
+      <krf_kin1>140</krf_kin1>
+      <krf_nin1>1</krf_nin1>
+      <krf_ban2>14</krf_ban2>
+      <krf_kin2>220</krf_kin2>
+      <krf_nin2>5</krf_nin2>
+      <krf_ban3>24</krf_ban3>
+      <krf_kin3>200</krf_kin3>
+      <krf_nin3>2</krf_nin3>
+      <krf_ban4></krf_ban4>
+      <krf_kin4>0</krf_kin4>
+      <krf_nin4>0</krf_nin4>
+      <krf_ban5></krf_ban5>
+      <krf_kin5>0</krf_kin5>
+      <krf_nin5>0</krf_nin5>
+      <rt3_ban1>124</rt3_ban1>
+      <rt3_kin1>1000</rt3_kin1>
+      <rt3_nin1>1</rt3_nin1>
+      <rt3_ban2></rt3_ban2>
+      <rt3_kin2>0</rt3_kin2>
+      <rt3_nin2>0</rt3_nin2>
+      <rf3_ban1>124</rf3_ban1>
+      <rf3_kin1>350</rf3_kin1>
+      <rf3_nin1>1</rf3_nin1>
+      <rf3_ban2></rf3_ban2>
+      <rf3_kin2>0</rf3_kin2>
+      <rf3_nin2>0</rf3_nin2>
+      <tenko>晴</tenko>
+      <hako>5</hako>
+      <fuko1>南</fuko1>
+      <fuko2>追い風</fuko2>
+      <fusoku>4</fusoku>
+      <kion>8.0</kion>
+      <suion>10.0</suion>
+      <ryusoku>000</ryusoku>
+      <suii>000</suii>
+      <mancho>0000</mancho>
+      <kancho>0000</kancho>
+      <rmei>予　　選　　　</rmei>
+      <chaku chk="1">
+        <teiban>1</teiban>
+        <toban group="40">4070</toban>
+        <name>中村　　亮太</name>
+        <seibetsu>1</seibetsu>
+        <chk>１</chk>
+        <rtime>1'49"7</rtime>
+        <cs>1</cs>
+        <st>.23</st>
+        <skriyu></skriyu>
+        <kim>逃げ</kim>
+      </chaku>
+      <chaku chk="2">
+        <teiban>2</teiban>
+        <toban group="41">4168</toban>
+        <name>石野　　貴之</name>
+        <seibetsu>1</seibetsu>
+        <chk>２</chk>
+        <rtime>1'50"9</rtime>
+        <cs>2</cs>
+        <st>.20</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="3">
+        <teiban>4</teiban>
+        <toban group="43">4398</toban>
+        <name>船岡　洋一郎</name>
+        <seibetsu>1</seibetsu>
+        <chk>３</chk>
+        <rtime>1'52"6</rtime>
+        <cs>4</cs>
+        <st>.18</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="4">
+        <teiban>5</teiban>
+        <toban group="44">4424</toban>
+        <name>松尾　　昂明</name>
+        <seibetsu>1</seibetsu>
+        <chk>４</chk>
+        <rtime>1'53"6</rtime>
+        <cs>5</cs>
+        <st>.18</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="5">
+        <teiban>6</teiban>
+        <toban group="36">3654</toban>
+        <name>武田　　光史</name>
+        <seibetsu>1</seibetsu>
+        <chk>５</chk>
+        <rtime>      </rtime>
+        <cs>6</cs>
+        <st>.24</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="6">
+        <teiban>3</teiban>
+        <toban group="43">4342</toban>
+        <name>谷野　　錬志</name>
+        <seibetsu>1</seibetsu>
+        <chk>６</chk>
+        <rtime>      </rtime>
+        <cs>3</cs>
+        <st>.16</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+    </record>
+    <record>
+      <hdate>20170309</hdate>
+      <jcd>18</jcd>
+      <rno>03</rno>
+      <rstop name="">0</rstop>
+      <ssu>6</ssu>
+      <stime>1138</stime>
+      <htime>1141</htime>
+      <kake>1111111000000000</kake>
+      <fusei>0000000000000000</fusei>
+      <henkan>00000000</henkan>
+      <tban11>1</tban11>
+      <tban12></tban12>
+      <tban13></tban13>
+      <tban21>3</tban21>
+      <tban22></tban22>
+      <tban23></tban23>
+      <tban31>4</tban31>
+      <tban32></tban32>
+      <tban33></tban33>
+      <t_ban1>01</t_ban1>
+      <t_kin1>280</t_kin1>
+      <t_ban2></t_ban2>
+      <t_kin2>0</t_kin2>
+      <t_ban3></t_ban3>
+      <t_kin3>0</t_kin3>
+      <f_ban1>01</f_ban1>
+      <f_kin1>240</f_kin1>
+      <f_ban2>03</f_ban2>
+      <f_kin2>270</f_kin2>
+      <f_ban3></f_ban3>
+      <f_kin3>0</f_kin3>
+      <f_ban4></f_ban4>
+      <f_kin4>0</f_kin4>
+      <f_ban5></f_ban5>
+      <f_kin5>0</f_kin5>
+      <rt_ban1>13</rt_ban1>
+      <rt_kin1>740</rt_kin1>
+      <rt_nin1>3</rt_nin1>
+      <rt_ban2></rt_ban2>
+      <rt_kin2>0</rt_kin2>
+      <rt_nin2>0</rt_nin2>
+      <rf_ban1>13</rf_ban1>
+      <rf_kin1>500</rf_kin1>
+      <rf_nin1>2</rf_nin1>
+      <rf_ban2></rf_ban2>
+      <rf_kin2>0</rf_kin2>
+      <rf_nin2>0</rf_nin2>
+      <krf_ban1>13</krf_ban1>
+      <krf_kin1>190</krf_kin1>
+      <krf_nin1>2</krf_nin1>
+      <krf_ban2>14</krf_ban2>
+      <krf_kin2>230</krf_kin2>
+      <krf_nin2>5</krf_nin2>
+      <krf_ban3>34</krf_ban3>
+      <krf_kin3>240</krf_kin3>
+      <krf_nin3>6</krf_nin3>
+      <krf_ban4></krf_ban4>
+      <krf_kin4>0</krf_kin4>
+      <krf_nin4>0</krf_nin4>
+      <krf_ban5></krf_ban5>
+      <krf_kin5>0</krf_kin5>
+      <krf_nin5>0</krf_nin5>
+      <rt3_ban1>134</rt3_ban1>
+      <rt3_kin1>1590</rt3_kin1>
+      <rt3_nin1>5</rt3_nin1>
+      <rt3_ban2></rt3_ban2>
+      <rt3_kin2>0</rt3_kin2>
+      <rt3_nin2>0</rt3_nin2>
+      <rf3_ban1>134</rf3_ban1>
+      <rf3_kin1>660</rf3_kin1>
+      <rf3_nin1>3</rf3_nin1>
+      <rf3_ban2></rf3_ban2>
+      <rf3_kin2>0</rf3_kin2>
+      <rf3_nin2>0</rf3_nin2>
+      <tenko>晴</tenko>
+      <hako>5</hako>
+      <fuko1>南</fuko1>
+      <fuko2>追い風</fuko2>
+      <fusoku>4</fusoku>
+      <kion>9.0</kion>
+      <suion>10.0</suion>
+      <ryusoku>000</ryusoku>
+      <suii>000</suii>
+      <mancho>0000</mancho>
+      <kancho>0000</kancho>
+      <rmei>予　　選　　　</rmei>
+      <chaku chk="1">
+        <teiban>1</teiban>
+        <toban group="44">4475</toban>
+        <name>末永　　祐輝</name>
+        <seibetsu>1</seibetsu>
+        <chk>１</chk>
+        <rtime>1'51"1</rtime>
+        <cs>1</cs>
+        <st>.17</st>
+        <skriyu></skriyu>
+        <kim>逃げ</kim>
+      </chaku>
+      <chaku chk="2">
+        <teiban>3</teiban>
+        <toban group="44">4492</toban>
+        <name>本多　　宏和</name>
+        <seibetsu>1</seibetsu>
+        <chk>２</chk>
+        <rtime>1'51"4</rtime>
+        <cs>3</cs>
+        <st>.17</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="3">
+        <teiban>4</teiban>
+        <toban group="42">4266</toban>
+        <name>長田　　頼宗</name>
+        <seibetsu>1</seibetsu>
+        <chk>３</chk>
+        <rtime>1'53"4</rtime>
+        <cs>4</cs>
+        <st>.13</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="4">
+        <teiban>6</teiban>
+        <toban group="37">3740</toban>
+        <name>大澤　　普司</name>
+        <seibetsu>1</seibetsu>
+        <chk>４</chk>
+        <rtime>1'54"7</rtime>
+        <cs>5</cs>
+        <st>.10</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="5">
+        <teiban>5</teiban>
+        <toban group="47">4786</toban>
+        <name>佐藤　　博亮</name>
+        <seibetsu>1</seibetsu>
+        <chk>５</chk>
+        <rtime>      </rtime>
+        <cs>6</cs>
+        <st>.06</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="6">
+        <teiban>2</teiban>
+        <toban group="37">3783</toban>
+        <name>瓜生　　正義</name>
+        <seibetsu>1</seibetsu>
+        <chk>６</chk>
+        <rtime>      </rtime>
+        <cs>2</cs>
+        <st>.20</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+    </record>
+    <record>
+      <hdate>20170309</hdate>
+      <jcd>18</jcd>
+      <rno>04</rno>
+      <rstop name="">0</rstop>
+      <ssu>6</ssu>
+      <stime>1210</stime>
+      <htime>1213</htime>
+      <kake>1111111000000000</kake>
+      <fusei>0000000000000000</fusei>
+      <henkan>00000000</henkan>
+      <tban11>4</tban11>
+      <tban12></tban12>
+      <tban13></tban13>
+      <tban21>2</tban21>
+      <tban22></tban22>
+      <tban23></tban23>
+      <tban31>1</tban31>
+      <tban32></tban32>
+      <tban33></tban33>
+      <t_ban1>04</t_ban1>
+      <t_kin1>640</t_kin1>
+      <t_ban2></t_ban2>
+      <t_kin2>0</t_kin2>
+      <t_ban3></t_ban3>
+      <t_kin3>0</t_kin3>
+      <f_ban1>04</f_ban1>
+      <f_kin1>100</f_kin1>
+      <f_ban2>02</f_ban2>
+      <f_kin2>1010</f_kin2>
+      <f_ban3></f_ban3>
+      <f_kin3>0</f_kin3>
+      <f_ban4></f_ban4>
+      <f_kin4>0</f_kin4>
+      <f_ban5></f_ban5>
+      <f_kin5>0</f_kin5>
+      <rt_ban1>42</rt_ban1>
+      <rt_kin1>1790</rt_kin1>
+      <rt_nin1>7</rt_nin1>
+      <rt_ban2></rt_ban2>
+      <rt_kin2>0</rt_kin2>
+      <rt_nin2>0</rt_nin2>
+      <rf_ban1>24</rf_ban1>
+      <rf_kin1>1240</rf_kin1>
+      <rf_nin1>5</rf_nin1>
+      <rf_ban2></rf_ban2>
+      <rf_kin2>0</rf_kin2>
+      <rf_nin2>0</rf_nin2>
+      <krf_ban1>24</krf_ban1>
+      <krf_kin1>220</krf_kin1>
+      <krf_nin1>4</krf_nin1>
+      <krf_ban2>14</krf_ban2>
+      <krf_kin2>120</krf_kin2>
+      <krf_nin2>1</krf_nin2>
+      <krf_ban3>12</krf_ban3>
+      <krf_kin3>180</krf_kin3>
+      <krf_nin3>2</krf_nin3>
+      <krf_ban4></krf_ban4>
+      <krf_kin4>0</krf_kin4>
+      <krf_nin4>0</krf_nin4>
+      <krf_ban5></krf_ban5>
+      <krf_kin5>0</krf_kin5>
+      <krf_nin5>0</krf_nin5>
+      <rt3_ban1>421</rt3_ban1>
+      <rt3_kin1>5090</rt3_kin1>
+      <rt3_nin1>17</rt3_nin1>
+      <rt3_ban2></rt3_ban2>
+      <rt3_kin2>0</rt3_kin2>
+      <rt3_nin2>0</rt3_nin2>
+      <rf3_ban1>124</rf3_ban1>
+      <rf3_kin1>280</rf3_kin1>
+      <rf3_nin1>1</rf3_nin1>
+      <rf3_ban2></rf3_ban2>
+      <rf3_kin2>0</rf3_kin2>
+      <rf3_nin2>0</rf3_nin2>
+      <tenko>晴</tenko>
+      <hako>5</hako>
+      <fuko1>南西</fuko1>
+      <fuko2>左横風</fuko2>
+      <fusoku>5</fusoku>
+      <kion>9.0</kion>
+      <suion>10.0</suion>
+      <ryusoku>000</ryusoku>
+      <suii>000</suii>
+      <mancho>0000</mancho>
+      <kancho>0000</kancho>
+      <rmei>予　　選　　　</rmei>
+      <chaku chk="1">
+        <teiban>4</teiban>
+        <toban group="40">4024</toban>
+        <name>井口　　佳典</name>
+        <seibetsu>1</seibetsu>
+        <chk>１</chk>
+        <rtime>1'51"0</rtime>
+        <cs>4</cs>
+        <st>.18</st>
+        <skriyu></skriyu>
+        <kim>まくり</kim>
+      </chaku>
+      <chaku chk="2">
+        <teiban>2</teiban>
+        <toban group="46">4643</toban>
+        <name>近江　　翔吾</name>
+        <seibetsu>1</seibetsu>
+        <chk>２</chk>
+        <rtime>1'52"1</rtime>
+        <cs>2</cs>
+        <st>.37</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="3">
+        <teiban>1</teiban>
+        <toban group="37">3716</toban>
+        <name>石渡　　鉄兵</name>
+        <seibetsu>1</seibetsu>
+        <chk>３</chk>
+        <rtime>1'53"7</rtime>
+        <cs>1</cs>
+        <st>.28</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="4">
+        <teiban>5</teiban>
+        <toban group="47">4757</toban>
+        <name>山田　　祐也</name>
+        <seibetsu>1</seibetsu>
+        <chk>４</chk>
+        <rtime>1'54"3</rtime>
+        <cs>5</cs>
+        <st>.24</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="5">
+        <teiban>3</teiban>
+        <toban group="44">4497</toban>
+        <name>桑原　　　悠</name>
+        <seibetsu>1</seibetsu>
+        <chk>５</chk>
+        <rtime>      </rtime>
+        <cs>3</cs>
+        <st>.39</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="6">
+        <teiban>6</teiban>
+        <toban group="38">3892</toban>
+        <name>草場　　康幸</name>
+        <seibetsu>1</seibetsu>
+        <chk>６</chk>
+        <rtime>      </rtime>
+        <cs>6</cs>
+        <st>.31</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+    </record>
+    <record>
+      <hdate>20170309</hdate>
+      <jcd>18</jcd>
+      <rno>05</rno>
+      <rstop name="">0</rstop>
+      <ssu>6</ssu>
+      <stime>1244</stime>
+      <htime>1247</htime>
+      <kake>1111111000000000</kake>
+      <fusei>0000000000000000</fusei>
+      <henkan>00000000</henkan>
+      <tban11>3</tban11>
+      <tban12></tban12>
+      <tban13></tban13>
+      <tban21>1</tban21>
+      <tban22></tban22>
+      <tban23></tban23>
+      <tban31>5</tban31>
+      <tban32></tban32>
+      <tban33></tban33>
+      <t_ban1>03</t_ban1>
+      <t_kin1>200</t_kin1>
+      <t_ban2></t_ban2>
+      <t_kin2>0</t_kin2>
+      <t_ban3></t_ban3>
+      <t_kin3>0</t_kin3>
+      <f_ban1>03</f_ban1>
+      <f_kin1>160</f_kin1>
+      <f_ban2>01</f_ban2>
+      <f_kin2>190</f_kin2>
+      <f_ban3></f_ban3>
+      <f_kin3>0</f_kin3>
+      <f_ban4></f_ban4>
+      <f_kin4>0</f_kin4>
+      <f_ban5></f_ban5>
+      <f_kin5>0</f_kin5>
+      <rt_ban1>31</rt_ban1>
+      <rt_kin1>540</rt_kin1>
+      <rt_nin1>3</rt_nin1>
+      <rt_ban2></rt_ban2>
+      <rt_kin2>0</rt_kin2>
+      <rt_nin2>0</rt_nin2>
+      <rf_ban1>13</rf_ban1>
+      <rf_kin1>190</rf_kin1>
+      <rf_nin1>1</rf_nin1>
+      <rf_ban2></rf_ban2>
+      <rf_kin2>0</rf_kin2>
+      <rf_nin2>0</rf_nin2>
+      <krf_ban1>13</krf_ban1>
+      <krf_kin1>140</krf_kin1>
+      <krf_nin1>1</krf_nin1>
+      <krf_ban2>35</krf_ban2>
+      <krf_kin2>410</krf_kin2>
+      <krf_nin2>7</krf_nin2>
+      <krf_ban3>15</krf_ban3>
+      <krf_kin3>670</krf_kin3>
+      <krf_nin3>12</krf_nin3>
+      <krf_ban4></krf_ban4>
+      <krf_kin4>0</krf_kin4>
+      <krf_nin4>0</krf_nin4>
+      <krf_ban5></krf_ban5>
+      <krf_kin5>0</krf_kin5>
+      <krf_nin5>0</krf_nin5>
+      <rt3_ban1>315</rt3_ban1>
+      <rt3_kin1>4570</rt3_kin1>
+      <rt3_nin1>19</rt3_nin1>
+      <rt3_ban2></rt3_ban2>
+      <rt3_kin2>0</rt3_kin2>
+      <rt3_nin2>0</rt3_nin2>
+      <rf3_ban1>135</rf3_ban1>
+      <rf3_kin1>1600</rf3_kin1>
+      <rf3_nin1>8</rf3_nin1>
+      <rf3_ban2></rf3_ban2>
+      <rf3_kin2>0</rf3_kin2>
+      <rf3_nin2>0</rf3_nin2>
+      <tenko>晴</tenko>
+      <hako>5</hako>
+      <fuko1>南東</fuko1>
+      <fuko2>追い風</fuko2>
+      <fusoku>5</fusoku>
+      <kion>9.0</kion>
+      <suion>10.0</suion>
+      <ryusoku>000</ryusoku>
+      <suii>000</suii>
+      <mancho>0000</mancho>
+      <kancho>0000</kancho>
+      <rmei>予　　選　　　</rmei>
+      <chaku chk="1">
+        <teiban>3</teiban>
+        <toban group="43">4320</toban>
+        <name>峰　　　竜太</name>
+        <seibetsu>1</seibetsu>
+        <chk>１</chk>
+        <rtime>1'55"9</rtime>
+        <cs>3</cs>
+        <st>.18</st>
+        <skriyu></skriyu>
+        <kim>まくり</kim>
+      </chaku>
+      <chaku chk="2">
+        <teiban>1</teiban>
+        <toban group="38">3888</toban>
+        <name>山本　　英志</name>
+        <seibetsu>1</seibetsu>
+        <chk>２</chk>
+        <rtime>1'58"0</rtime>
+        <cs>1</cs>
+        <st>.16</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="3">
+        <teiban>5</teiban>
+        <toban group="37">3731</toban>
+        <name>高濱　　芳久</name>
+        <seibetsu>1</seibetsu>
+        <chk>３</chk>
+        <rtime>2'02"2</rtime>
+        <cs>5</cs>
+        <st>.18</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="4">
+        <teiban>2</teiban>
+        <toban group="43">4396</toban>
+        <name>大田　　直弥</name>
+        <seibetsu>1</seibetsu>
+        <chk>４</chk>
+        <rtime>2'04"4</rtime>
+        <cs>2</cs>
+        <st>.21</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="5">
+        <teiban>6</teiban>
+        <toban group="43">4324</toban>
+        <name>海野　康志郎</name>
+        <seibetsu>1</seibetsu>
+        <chk>５</chk>
+        <rtime>      </rtime>
+        <cs>6</cs>
+        <st>.16</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="6">
+        <teiban>4</teiban>
+        <toban group="39">3959</toban>
+        <name>坪井　　康晴</name>
+        <seibetsu>1</seibetsu>
+        <chk>転</chk>
+        <rtime>      </rtime>
+        <cs>4</cs>
+        <st>.17</st>
+        <skriyu>転覆</skriyu>
+        <kim></kim>
+      </chaku>
+    </record>
+    <record>
+      <hdate>20170309</hdate>
+      <jcd>18</jcd>
+      <rno>06</rno>
+      <rstop name="">0</rstop>
+      <ssu>6</ssu>
+      <stime>1316</stime>
+      <htime>1320</htime>
+      <kake>1111111000000000</kake>
+      <fusei>0000000000000000</fusei>
+      <henkan>00000000</henkan>
+      <tban11>3</tban11>
+      <tban12></tban12>
+      <tban13></tban13>
+      <tban21>2</tban21>
+      <tban22></tban22>
+      <tban23></tban23>
+      <tban31>6</tban31>
+      <tban32></tban32>
+      <tban33></tban33>
+      <t_ban1>03</t_ban1>
+      <t_kin1>760</t_kin1>
+      <t_ban2></t_ban2>
+      <t_kin2>0</t_kin2>
+      <t_ban3></t_ban3>
+      <t_kin3>0</t_kin3>
+      <f_ban1>03</f_ban1>
+      <f_kin1>110</f_kin1>
+      <f_ban2>02</f_ban2>
+      <f_kin2>120</f_kin2>
+      <f_ban3></f_ban3>
+      <f_kin3>0</f_kin3>
+      <f_ban4></f_ban4>
+      <f_kin4>0</f_kin4>
+      <f_ban5></f_ban5>
+      <f_kin5>0</f_kin5>
+      <rt_ban1>32</rt_ban1>
+      <rt_kin1>1840</rt_kin1>
+      <rt_nin1>10</rt_nin1>
+      <rt_ban2></rt_ban2>
+      <rt_kin2>0</rt_kin2>
+      <rt_nin2>0</rt_nin2>
+      <rf_ban1>23</rf_ban1>
+      <rf_kin1>550</rf_kin1>
+      <rf_nin1>3</rf_nin1>
+      <rf_ban2></rf_ban2>
+      <rf_kin2>0</rf_kin2>
+      <rf_nin2>0</rf_nin2>
+      <krf_ban1>23</krf_ban1>
+      <krf_kin1>230</krf_kin1>
+      <krf_nin1>2</krf_nin1>
+      <krf_ban2>36</krf_ban2>
+      <krf_kin2>1410</krf_kin2>
+      <krf_nin2>15</krf_nin2>
+      <krf_ban3>26</krf_ban3>
+      <krf_kin3>700</krf_kin3>
+      <krf_nin3>11</krf_nin3>
+      <krf_ban4></krf_ban4>
+      <krf_kin4>0</krf_kin4>
+      <krf_nin4>0</krf_nin4>
+      <krf_ban5></krf_ban5>
+      <krf_kin5>0</krf_kin5>
+      <krf_nin5>0</krf_nin5>
+      <rt3_ban1>326</rt3_ban1>
+      <rt3_kin1>19140</rt3_kin1>
+      <rt3_nin1>73</rt3_nin1>
+      <rt3_ban2></rt3_ban2>
+      <rt3_kin2>0</rt3_kin2>
+      <rt3_nin2>0</rt3_nin2>
+      <rf3_ban1>236</rf3_ban1>
+      <rf3_kin1>2570</rf3_kin1>
+      <rf3_nin1>11</rf3_nin1>
+      <rf3_ban2></rf3_ban2>
+      <rf3_kin2>0</rf3_kin2>
+      <rf3_nin2>0</rf3_nin2>
+      <tenko>晴</tenko>
+      <hako>5</hako>
+      <fuko1>南</fuko1>
+      <fuko2>追い風</fuko2>
+      <fusoku>5</fusoku>
+      <kion>10.0</kion>
+      <suion>10.0</suion>
+      <ryusoku>000</ryusoku>
+      <suii>000</suii>
+      <mancho>0000</mancho>
+      <kancho>0000</kancho>
+      <rmei>予　　選　　　</rmei>
+      <chaku chk="1">
+        <teiban>3</teiban>
+        <toban group="40">4033</toban>
+        <name>伊藤　　将吉</name>
+        <seibetsu>1</seibetsu>
+        <chk>１</chk>
+        <rtime>1'50"3</rtime>
+        <cs>3</cs>
+        <st>.10</st>
+        <skriyu></skriyu>
+        <kim>まくり</kim>
+      </chaku>
+      <chaku chk="2">
+        <teiban>2</teiban>
+        <toban group="39">3942</toban>
+        <name>寺田　　　祥</name>
+        <seibetsu>1</seibetsu>
+        <chk>２</chk>
+        <rtime>1'51"4</rtime>
+        <cs>2</cs>
+        <st>.13</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="3">
+        <teiban>6</teiban>
+        <toban group="35">3558</toban>
+        <name>山本　　浩次</name>
+        <seibetsu>1</seibetsu>
+        <chk>３</chk>
+        <rtime>1'52"5</rtime>
+        <cs>5</cs>
+        <st>.04</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="4">
+        <teiban>5</teiban>
+        <toban group="44">4444</toban>
+        <name>桐生　　順平</name>
+        <seibetsu>1</seibetsu>
+        <chk>４</chk>
+        <rtime>1'54"0</rtime>
+        <cs>4</cs>
+        <st>.09</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="5">
+        <teiban>1</teiban>
+        <toban group="43">4342</toban>
+        <name>谷野　　錬志</name>
+        <seibetsu>1</seibetsu>
+        <chk>５</chk>
+        <rtime>      </rtime>
+        <cs>1</cs>
+        <st>.15</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="6">
+        <teiban>4</teiban>
+        <toban group="44">4459</toban>
+        <name>片岡　　雅裕</name>
+        <seibetsu>1</seibetsu>
+        <chk>６</chk>
+        <rtime>      </rtime>
+        <cs>6</cs>
+        <st>.03</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+    </record>
+    <record>
+      <hdate>20170309</hdate>
+      <jcd>18</jcd>
+      <rno>07</rno>
+      <rstop name="">0</rstop>
+      <ssu>6</ssu>
+      <stime>1348</stime>
+      <htime>1351</htime>
+      <kake>1111111000000000</kake>
+      <fusei>0000000000000000</fusei>
+      <henkan>00000000</henkan>
+      <tban11>2</tban11>
+      <tban12></tban12>
+      <tban13></tban13>
+      <tban21>1</tban21>
+      <tban22></tban22>
+      <tban23></tban23>
+      <tban31>5</tban31>
+      <tban32></tban32>
+      <tban33></tban33>
+      <t_ban1>02</t_ban1>
+      <t_kin1>300</t_kin1>
+      <t_ban2></t_ban2>
+      <t_kin2>0</t_kin2>
+      <t_ban3></t_ban3>
+      <t_kin3>0</t_kin3>
+      <f_ban1>02</f_ban1>
+      <f_kin1>100</f_kin1>
+      <f_ban2>01</f_ban2>
+      <f_kin2>130</f_kin2>
+      <f_ban3></f_ban3>
+      <f_kin3>0</f_kin3>
+      <f_ban4></f_ban4>
+      <f_kin4>0</f_kin4>
+      <f_ban5></f_ban5>
+      <f_kin5>0</f_kin5>
+      <rt_ban1>21</rt_ban1>
+      <rt_kin1>640</rt_kin1>
+      <rt_nin1>3</rt_nin1>
+      <rt_ban2></rt_ban2>
+      <rt_kin2>0</rt_kin2>
+      <rt_nin2>0</rt_nin2>
+      <rf_ban1>12</rf_ban1>
+      <rf_kin1>380</rf_kin1>
+      <rf_nin1>2</rf_nin1>
+      <rf_ban2></rf_ban2>
+      <rf_kin2>0</rf_kin2>
+      <rf_nin2>0</rf_nin2>
+      <krf_ban1>12</krf_ban1>
+      <krf_kin1>220</krf_kin1>
+      <krf_nin1>3</krf_nin1>
+      <krf_ban2>25</krf_ban2>
+      <krf_kin2>480</krf_kin2>
+      <krf_nin2>8</krf_nin2>
+      <krf_ban3>15</krf_ban3>
+      <krf_kin3>420</krf_kin3>
+      <krf_nin3>7</krf_nin3>
+      <krf_ban4></krf_ban4>
+      <krf_kin4>0</krf_kin4>
+      <krf_nin4>0</krf_nin4>
+      <krf_ban5></krf_ban5>
+      <krf_kin5>0</krf_kin5>
+      <krf_nin5>0</krf_nin5>
+      <rt3_ban1>215</rt3_ban1>
+      <rt3_kin1>5620</rt3_kin1>
+      <rt3_nin1>23</rt3_nin1>
+      <rt3_ban2></rt3_ban2>
+      <rt3_kin2>0</rt3_kin2>
+      <rt3_nin2>0</rt3_nin2>
+      <rf3_ban1>125</rf3_ban1>
+      <rf3_kin1>1660</rf3_kin1>
+      <rf3_nin1>6</rf3_nin1>
+      <rf3_ban2></rf3_ban2>
+      <rf3_kin2>0</rf3_kin2>
+      <rf3_nin2>0</rf3_nin2>
+      <tenko>晴</tenko>
+      <hako>5</hako>
+      <fuko1>西</fuko1>
+      <fuko2>向い風</fuko2>
+      <fusoku>4</fusoku>
+      <kion>10.0</kion>
+      <suion>10.0</suion>
+      <ryusoku>000</ryusoku>
+      <suii>000</suii>
+      <mancho>0000</mancho>
+      <kancho>0000</kancho>
+      <rmei>予　　選　　　</rmei>
+      <chaku chk="1">
+        <teiban>2</teiban>
+        <toban group="37">3780</toban>
+        <name>魚谷　　智之</name>
+        <seibetsu>1</seibetsu>
+        <chk>１</chk>
+        <rtime>1'50"7</rtime>
+        <cs>2</cs>
+        <st>.12</st>
+        <skriyu></skriyu>
+        <kim>抜き</kim>
+      </chaku>
+      <chaku chk="2">
+        <teiban>1</teiban>
+        <toban group="47">4786</toban>
+        <name>佐藤　　博亮</name>
+        <seibetsu>1</seibetsu>
+        <chk>２</chk>
+        <rtime>1'51"5</rtime>
+        <cs>1</cs>
+        <st>.16</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="3">
+        <teiban>5</teiban>
+        <toban group="44">4430</toban>
+        <name>永田　　秀二</name>
+        <seibetsu>1</seibetsu>
+        <chk>３</chk>
+        <rtime>1'53"6</rtime>
+        <cs>5</cs>
+        <st>.19</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="4">
+        <teiban>3</teiban>
+        <toban group="41">4168</toban>
+        <name>石野　　貴之</name>
+        <seibetsu>1</seibetsu>
+        <chk>４</chk>
+        <rtime>1'56"4</rtime>
+        <cs>3</cs>
+        <st>.14</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="5">
+        <teiban>4</teiban>
+        <toban group="45">4503</toban>
+        <name>上野　真之介</name>
+        <seibetsu>1</seibetsu>
+        <chk>５</chk>
+        <rtime>      </rtime>
+        <cs>4</cs>
+        <st>.19</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="6">
+        <teiban>6</teiban>
+        <toban group="38">3872</toban>
+        <name>岡田　　憲行</name>
+        <seibetsu>1</seibetsu>
+        <chk>６</chk>
+        <rtime>      </rtime>
+        <cs>6</cs>
+        <st>.17</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+    </record>
+    <record>
+      <hdate>20170309</hdate>
+      <jcd>18</jcd>
+      <rno>08</rno>
+      <rstop name="">0</rstop>
+      <ssu>6</ssu>
+      <stime>1420</stime>
+      <htime>1423</htime>
+      <kake>1111111000000000</kake>
+      <fusei>0000000000000000</fusei>
+      <henkan>00000000</henkan>
+      <tban11>2</tban11>
+      <tban12></tban12>
+      <tban13></tban13>
+      <tban21>4</tban21>
+      <tban22></tban22>
+      <tban23></tban23>
+      <tban31>6</tban31>
+      <tban32></tban32>
+      <tban33></tban33>
+      <t_ban1>02</t_ban1>
+      <t_kin1>400</t_kin1>
+      <t_ban2></t_ban2>
+      <t_kin2>0</t_kin2>
+      <t_ban3></t_ban3>
+      <t_kin3>0</t_kin3>
+      <f_ban1>02</f_ban1>
+      <f_kin1>440</f_kin1>
+      <f_ban2>04</f_ban2>
+      <f_kin2>400</f_kin2>
+      <f_ban3></f_ban3>
+      <f_kin3>0</f_kin3>
+      <f_ban4></f_ban4>
+      <f_kin4>0</f_kin4>
+      <f_ban5></f_ban5>
+      <f_kin5>0</f_kin5>
+      <rt_ban1>24</rt_ban1>
+      <rt_kin1>2320</rt_kin1>
+      <rt_nin1>13</rt_nin1>
+      <rt_ban2></rt_ban2>
+      <rt_kin2>0</rt_kin2>
+      <rt_nin2>0</rt_nin2>
+      <rf_ban1>24</rf_ban1>
+      <rf_kin1>1370</rf_kin1>
+      <rf_nin1>7</rf_nin1>
+      <rf_ban2></rf_ban2>
+      <rf_kin2>0</rf_kin2>
+      <rf_nin2>0</rf_nin2>
+      <krf_ban1>24</krf_ban1>
+      <krf_kin1>380</krf_kin1>
+      <krf_nin1>7</krf_nin1>
+      <krf_ban2>26</krf_ban2>
+      <krf_kin2>490</krf_kin2>
+      <krf_nin2>10</krf_nin2>
+      <krf_ban3>46</krf_ban3>
+      <krf_kin3>360</krf_kin3>
+      <krf_nin3>6</krf_nin3>
+      <krf_ban4></krf_ban4>
+      <krf_kin4>0</krf_kin4>
+      <krf_nin4>0</krf_nin4>
+      <krf_ban5></krf_ban5>
+      <krf_kin5>0</krf_kin5>
+      <krf_nin5>0</krf_nin5>
+      <rt3_ban1>246</rt3_ban1>
+      <rt3_kin1>5600</rt3_kin1>
+      <rt3_nin1>31</rt3_nin1>
+      <rt3_ban2></rt3_ban2>
+      <rt3_kin2>0</rt3_kin2>
+      <rt3_nin2>0</rt3_nin2>
+      <rf3_ban1>246</rf3_ban1>
+      <rf3_kin1>1670</rf3_kin1>
+      <rf3_nin1>9</rf3_nin1>
+      <rf3_ban2></rf3_ban2>
+      <rf3_kin2>0</rf3_kin2>
+      <rf3_nin2>0</rf3_nin2>
+      <tenko>晴</tenko>
+      <hako>10</hako>
+      <fuko1>南西</fuko1>
+      <fuko2>左横風</fuko2>
+      <fusoku>6</fusoku>
+      <kion>10.0</kion>
+      <suion>10.0</suion>
+      <ryusoku>000</ryusoku>
+      <suii>000</suii>
+      <mancho>0000</mancho>
+      <kancho>0000</kancho>
+      <rmei>予　　選　　　</rmei>
+      <chaku chk="1">
+        <teiban>2</teiban>
+        <toban group="39">3956</toban>
+        <name>横澤　　剛治</name>
+        <seibetsu>1</seibetsu>
+        <chk>１</chk>
+        <rtime>1'51"3</rtime>
+        <cs>2</cs>
+        <st>.21</st>
+        <skriyu></skriyu>
+        <kim>まくり</kim>
+      </chaku>
+      <chaku chk="2">
+        <teiban>4</teiban>
+        <toban group="39">3955</toban>
+        <name>眞田　　英二</name>
+        <seibetsu>1</seibetsu>
+        <chk>２</chk>
+        <rtime>1'52"1</rtime>
+        <cs>4</cs>
+        <st>.25</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="3">
+        <teiban>6</teiban>
+        <toban group="37">3719</toban>
+        <name>辻　　　栄蔵</name>
+        <seibetsu>1</seibetsu>
+        <chk>３</chk>
+        <rtime>1'54"2</rtime>
+        <cs>6</cs>
+        <st>.23</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="4">
+        <teiban>5</teiban>
+        <toban group="37">3740</toban>
+        <name>大澤　　普司</name>
+        <seibetsu>1</seibetsu>
+        <chk>４</chk>
+        <rtime>1'55"3</rtime>
+        <cs>5</cs>
+        <st>.21</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="5">
+        <teiban>3</teiban>
+        <toban group="34">3415</toban>
+        <name>松井　　　繁</name>
+        <seibetsu>1</seibetsu>
+        <chk>５</chk>
+        <rtime>      </rtime>
+        <cs>3</cs>
+        <st>.16</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="6">
+        <teiban>1</teiban>
+        <toban group="44">4497</toban>
+        <name>桑原　　　悠</name>
+        <seibetsu>1</seibetsu>
+        <chk>６</chk>
+        <rtime>      </rtime>
+        <cs>1</cs>
+        <st>.29</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+    </record>
+    <record>
+      <hdate>20170309</hdate>
+      <jcd>18</jcd>
+      <rno>09</rno>
+      <rstop name="">0</rstop>
+      <ssu>6</ssu>
+      <stime>1453</stime>
+      <htime>1456</htime>
+      <kake>1111111000000000</kake>
+      <fusei>0000000000000000</fusei>
+      <henkan>00000000</henkan>
+      <tban11>1</tban11>
+      <tban12></tban12>
+      <tban13></tban13>
+      <tban21>2</tban21>
+      <tban22></tban22>
+      <tban23></tban23>
+      <tban31>3</tban31>
+      <tban32></tban32>
+      <tban33></tban33>
+      <t_ban1>01</t_ban1>
+      <t_kin1>170</t_kin1>
+      <t_ban2></t_ban2>
+      <t_kin2>0</t_kin2>
+      <t_ban3></t_ban3>
+      <t_kin3>0</t_kin3>
+      <f_ban1>01</f_ban1>
+      <f_kin1>100</f_kin1>
+      <f_ban2>02</f_ban2>
+      <f_kin2>100</f_kin2>
+      <f_ban3></f_ban3>
+      <f_kin3>0</f_kin3>
+      <f_ban4></f_ban4>
+      <f_kin4>0</f_kin4>
+      <f_ban5></f_ban5>
+      <f_kin5>0</f_kin5>
+      <rt_ban1>12</rt_ban1>
+      <rt_kin1>300</rt_kin1>
+      <rt_nin1>1</rt_nin1>
+      <rt_ban2></rt_ban2>
+      <rt_kin2>0</rt_kin2>
+      <rt_nin2>0</rt_nin2>
+      <rf_ban1>12</rf_ban1>
+      <rf_kin1>200</rf_kin1>
+      <rf_nin1>1</rf_nin1>
+      <rf_ban2></rf_ban2>
+      <rf_kin2>0</rf_kin2>
+      <rf_nin2>0</rf_nin2>
+      <krf_ban1>12</krf_ban1>
+      <krf_kin1>160</krf_kin1>
+      <krf_nin1>1</krf_nin1>
+      <krf_ban2>13</krf_ban2>
+      <krf_kin2>210</krf_kin2>
+      <krf_nin2>3</krf_nin2>
+      <krf_ban3>23</krf_ban3>
+      <krf_kin3>290</krf_kin3>
+      <krf_nin3>7</krf_nin3>
+      <krf_ban4></krf_ban4>
+      <krf_kin4>0</krf_kin4>
+      <krf_nin4>0</krf_nin4>
+      <krf_ban5></krf_ban5>
+      <krf_kin5>0</krf_kin5>
+      <krf_nin5>0</krf_nin5>
+      <rt3_ban1>123</rt3_ban1>
+      <rt3_kin1>1560</rt3_kin1>
+      <rt3_nin1>4</rt3_nin1>
+      <rt3_ban2></rt3_ban2>
+      <rt3_kin2>0</rt3_kin2>
+      <rt3_nin2>0</rt3_nin2>
+      <rf3_ban1>123</rf3_ban1>
+      <rf3_kin1>560</rf3_kin1>
+      <rf3_nin1>2</rf3_nin1>
+      <rf3_ban2></rf3_ban2>
+      <rf3_kin2>0</rf3_kin2>
+      <rf3_nin2>0</rf3_nin2>
+      <tenko>晴</tenko>
+      <hako>5</hako>
+      <fuko1>南</fuko1>
+      <fuko2>追い風</fuko2>
+      <fusoku>5</fusoku>
+      <kion>10.0</kion>
+      <suion>10.0</suion>
+      <ryusoku>000</ryusoku>
+      <suii>000</suii>
+      <mancho>0000</mancho>
+      <kancho>0000</kancho>
+      <rmei>予　　選　　　</rmei>
+      <chaku chk="1">
+        <teiban>1</teiban>
+        <toban group="44">4460</toban>
+        <name>後藤　　翔之</name>
+        <seibetsu>1</seibetsu>
+        <chk>１</chk>
+        <rtime>1'49"2</rtime>
+        <cs>1</cs>
+        <st>.09</st>
+        <skriyu></skriyu>
+        <kim>逃げ</kim>
+      </chaku>
+      <chaku chk="2">
+        <teiban>2</teiban>
+        <toban group="44">4418</toban>
+        <name>茅原　　悠紀</name>
+        <seibetsu>1</seibetsu>
+        <chk>２</chk>
+        <rtime>1'50"6</rtime>
+        <cs>3</cs>
+        <st>.19</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="3">
+        <teiban>3</teiban>
+        <toban group="36">3654</toban>
+        <name>武田　　光史</name>
+        <seibetsu>1</seibetsu>
+        <chk>３</chk>
+        <rtime>1'53"0</rtime>
+        <cs>4</cs>
+        <st>.15</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="4">
+        <teiban>4</teiban>
+        <toban group="37">3783</toban>
+        <name>瓜生　　正義</name>
+        <seibetsu>1</seibetsu>
+        <chk>４</chk>
+        <rtime>1'54"3</rtime>
+        <cs>5</cs>
+        <st>.10</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="5">
+        <teiban>6</teiban>
+        <toban group="37">3731</toban>
+        <name>高濱　　芳久</name>
+        <seibetsu>1</seibetsu>
+        <chk>５</chk>
+        <rtime>      </rtime>
+        <cs>2</cs>
+        <st>.18</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="6">
+        <teiban>5</teiban>
+        <toban group="38">3892</toban>
+        <name>草場　　康幸</name>
+        <seibetsu>1</seibetsu>
+        <chk>６</chk>
+        <rtime>      </rtime>
+        <cs>6</cs>
+        <st>.19</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+    </record>
+    <record>
+      <hdate>20170309</hdate>
+      <jcd>18</jcd>
+      <rno>10</rno>
+      <rstop name="">0</rstop>
+      <ssu>6</ssu>
+      <stime>1528</stime>
+      <htime>1532</htime>
+      <kake>1111111000000000</kake>
+      <fusei>0000000000000000</fusei>
+      <henkan>00000000</henkan>
+      <tban11>1</tban11>
+      <tban12></tban12>
+      <tban13></tban13>
+      <tban21>4</tban21>
+      <tban22></tban22>
+      <tban23></tban23>
+      <tban31>6</tban31>
+      <tban32></tban32>
+      <tban33></tban33>
+      <t_ban1>01</t_ban1>
+      <t_kin1>150</t_kin1>
+      <t_ban2></t_ban2>
+      <t_kin2>0</t_kin2>
+      <t_ban3></t_ban3>
+      <t_kin3>0</t_kin3>
+      <f_ban1>01</f_ban1>
+      <f_kin1>110</f_kin1>
+      <f_ban2>04</f_ban2>
+      <f_kin2>420</f_kin2>
+      <f_ban3></f_ban3>
+      <f_kin3>0</f_kin3>
+      <f_ban4></f_ban4>
+      <f_kin4>0</f_kin4>
+      <f_ban5></f_ban5>
+      <f_kin5>0</f_kin5>
+      <rt_ban1>14</rt_ban1>
+      <rt_kin1>1150</rt_kin1>
+      <rt_nin1>4</rt_nin1>
+      <rt_ban2></rt_ban2>
+      <rt_kin2>0</rt_kin2>
+      <rt_nin2>0</rt_nin2>
+      <rf_ban1>14</rf_ban1>
+      <rf_kin1>750</rf_kin1>
+      <rf_nin1>3</rf_nin1>
+      <rf_ban2></rf_ban2>
+      <rf_kin2>0</rf_kin2>
+      <rf_nin2>0</rf_nin2>
+      <krf_ban1>14</krf_ban1>
+      <krf_kin1>470</krf_kin1>
+      <krf_nin1>5</krf_nin1>
+      <krf_ban2>16</krf_ban2>
+      <krf_kin2>790</krf_kin2>
+      <krf_nin2>9</krf_nin2>
+      <krf_ban3>46</krf_ban3>
+      <krf_kin3>1290</krf_kin3>
+      <krf_nin3>14</krf_nin3>
+      <krf_ban4></krf_ban4>
+      <krf_kin4>0</krf_kin4>
+      <krf_nin4>0</krf_nin4>
+      <krf_ban5></krf_ban5>
+      <krf_kin5>0</krf_kin5>
+      <krf_nin5>0</krf_nin5>
+      <rt3_ban1>146</rt3_ban1>
+      <rt3_kin1>7330</rt3_kin1>
+      <rt3_nin1>22</rt3_nin1>
+      <rt3_ban2></rt3_ban2>
+      <rt3_kin2>0</rt3_kin2>
+      <rt3_nin2>0</rt3_nin2>
+      <rf3_ban1>146</rf3_ban1>
+      <rf3_kin1>3040</rf3_kin1>
+      <rf3_nin1>11</rf3_nin1>
+      <rf3_ban2></rf3_ban2>
+      <rf3_kin2>0</rf3_kin2>
+      <rf3_nin2>0</rf3_nin2>
+      <tenko>晴</tenko>
+      <hako>5</hako>
+      <fuko1>西</fuko1>
+      <fuko2>向い風</fuko2>
+      <fusoku>6</fusoku>
+      <kion>10.0</kion>
+      <suion>10.0</suion>
+      <ryusoku>000</ryusoku>
+      <suii>000</suii>
+      <mancho>0000</mancho>
+      <kancho>0000</kancho>
+      <rmei>予　　選　　　</rmei>
+      <chaku chk="1">
+        <teiban>1</teiban>
+        <toban group="43">4350</toban>
+        <name>篠崎　　元志</name>
+        <seibetsu>1</seibetsu>
+        <chk>１</chk>
+        <rtime>1'56"4</rtime>
+        <cs>1</cs>
+        <st>.38</st>
+        <skriyu></skriyu>
+        <kim>逃げ</kim>
+      </chaku>
+      <chaku chk="2">
+        <teiban>4</teiban>
+        <toban group="47">4757</toban>
+        <name>山田　　祐也</name>
+        <seibetsu>1</seibetsu>
+        <chk>２</chk>
+        <rtime>1'58"6</rtime>
+        <cs>4</cs>
+        <st>.39</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="3">
+        <teiban>6</teiban>
+        <toban group="38">3852</toban>
+        <name>澤　　　大介</name>
+        <seibetsu>1</seibetsu>
+        <chk>３</chk>
+        <rtime>2'00"9</rtime>
+        <cs>6</cs>
+        <st>.41</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="4">
+        <teiban>5</teiban>
+        <toban group="43">4320</toban>
+        <name>峰　　　竜太</name>
+        <seibetsu>1</seibetsu>
+        <chk>４</chk>
+        <rtime>2'03"4</rtime>
+        <cs>5</cs>
+        <st>.49</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="5">
+        <teiban>2</teiban>
+        <toban group="40">4064</toban>
+        <name>原田　　篤志</name>
+        <seibetsu>1</seibetsu>
+        <chk>５</chk>
+        <rtime>      </rtime>
+        <cs>2</cs>
+        <st>.42</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="6">
+        <teiban>3</teiban>
+        <toban group="43">4398</toban>
+        <name>船岡　洋一郎</name>
+        <seibetsu>1</seibetsu>
+        <chk>転</chk>
+        <rtime>      </rtime>
+        <cs>3</cs>
+        <st>.48</st>
+        <skriyu>転覆</skriyu>
+        <kim></kim>
+      </chaku>
+    </record>
+    <record>
+      <hdate>20170309</hdate>
+      <jcd>18</jcd>
+      <rno>11</rno>
+      <rstop name="">0</rstop>
+      <ssu>6</ssu>
+      <stime>1605</stime>
+      <htime>1611</htime>
+      <kake>1111111000000000</kake>
+      <fusei>0000000000000000</fusei>
+      <henkan>00000000</henkan>
+      <tban11>1</tban11>
+      <tban12></tban12>
+      <tban13></tban13>
+      <tban21>5</tban21>
+      <tban22></tban22>
+      <tban23></tban23>
+      <tban31>2</tban31>
+      <tban32></tban32>
+      <tban33></tban33>
+      <t_ban1>01</t_ban1>
+      <t_kin1>260</t_kin1>
+      <t_ban2></t_ban2>
+      <t_kin2>0</t_kin2>
+      <t_ban3></t_ban3>
+      <t_kin3>0</t_kin3>
+      <f_ban1>01</f_ban1>
+      <f_kin1>120</f_kin1>
+      <f_ban2>05</f_ban2>
+      <f_kin2>270</f_kin2>
+      <f_ban3></f_ban3>
+      <f_kin3>0</f_kin3>
+      <f_ban4></f_ban4>
+      <f_kin4>0</f_kin4>
+      <f_ban5></f_ban5>
+      <f_kin5>0</f_kin5>
+      <rt_ban1>15</rt_ban1>
+      <rt_kin1>2390</rt_kin1>
+      <rt_nin1>12</rt_nin1>
+      <rt_ban2></rt_ban2>
+      <rt_kin2>0</rt_kin2>
+      <rt_nin2>0</rt_nin2>
+      <rf_ban1>15</rf_ban1>
+      <rf_kin1>1840</rf_kin1>
+      <rf_nin1>9</rf_nin1>
+      <rf_ban2></rf_ban2>
+      <rf_kin2>0</rf_kin2>
+      <rf_nin2>0</rf_nin2>
+      <krf_ban1>15</krf_ban1>
+      <krf_kin1>620</krf_kin1>
+      <krf_nin1>10</krf_nin1>
+      <krf_ban2>12</krf_ban2>
+      <krf_kin2>210</krf_kin2>
+      <krf_nin2>3</krf_nin2>
+      <krf_ban3>25</krf_ban3>
+      <krf_kin3>420</krf_kin3>
+      <krf_nin3>6</krf_nin3>
+      <krf_ban4></krf_ban4>
+      <krf_kin4>0</krf_kin4>
+      <krf_nin4>0</krf_nin4>
+      <krf_ban5></krf_ban5>
+      <krf_kin5>0</krf_kin5>
+      <krf_nin5>0</krf_nin5>
+      <rt3_ban1>152</rt3_ban1>
+      <rt3_kin1>6290</rt3_kin1>
+      <rt3_nin1>23</rt3_nin1>
+      <rt3_ban2></rt3_ban2>
+      <rt3_kin2>0</rt3_kin2>
+      <rt3_nin2>0</rt3_nin2>
+      <rf3_ban1>125</rf3_ban1>
+      <rf3_kin1>790</rf3_kin1>
+      <rf3_nin1>4</rf3_nin1>
+      <rf3_ban2></rf3_ban2>
+      <rf3_kin2>0</rf3_kin2>
+      <rf3_nin2>0</rf3_nin2>
+      <tenko>晴</tenko>
+      <hako>5</hako>
+      <fuko1>南</fuko1>
+      <fuko2>追い風</fuko2>
+      <fusoku>4</fusoku>
+      <kion>10.0</kion>
+      <suion>10.0</suion>
+      <ryusoku>000</ryusoku>
+      <suii>000</suii>
+      <mancho>0000</mancho>
+      <kancho>0000</kancho>
+      <rmei>予　　選　　　</rmei>
+      <chaku chk="1">
+        <teiban>1</teiban>
+        <toban group="44">4444</toban>
+        <name>桐生　　順平</name>
+        <seibetsu>1</seibetsu>
+        <chk>１</chk>
+        <rtime>1'50"3</rtime>
+        <cs>1</cs>
+        <st>.12</st>
+        <skriyu></skriyu>
+        <kim>逃げ</kim>
+      </chaku>
+      <chaku chk="2">
+        <teiban>5</teiban>
+        <toban group="46">4643</toban>
+        <name>近江　　翔吾</name>
+        <seibetsu>1</seibetsu>
+        <chk>２</chk>
+        <rtime>1'52"2</rtime>
+        <cs>6</cs>
+        <st>.15</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="3">
+        <teiban>2</teiban>
+        <toban group="44">4492</toban>
+        <name>本多　　宏和</name>
+        <seibetsu>1</seibetsu>
+        <chk>３</chk>
+        <rtime>1'54"1</rtime>
+        <cs>3</cs>
+        <st>.19</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="4">
+        <teiban>4</teiban>
+        <toban group="45">4528</toban>
+        <name>黒井　　達矢</name>
+        <seibetsu>1</seibetsu>
+        <chk>４</chk>
+        <rtime>1'55"0</rtime>
+        <cs>5</cs>
+        <st>.17</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="5">
+        <teiban>6</teiban>
+        <toban group="33">3388</toban>
+        <name>今垣　光太郎</name>
+        <seibetsu>1</seibetsu>
+        <chk>５</chk>
+        <rtime>      </rtime>
+        <cs>2</cs>
+        <st>.14</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="6">
+        <teiban>3</teiban>
+        <toban group="38">3872</toban>
+        <name>岡田　　憲行</name>
+        <seibetsu>1</seibetsu>
+        <chk>６</chk>
+        <rtime>      </rtime>
+        <cs>4</cs>
+        <st>.31</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+    </record>
+    <record>
+      <hdate>20170309</hdate>
+      <jcd>18</jcd>
+      <rno>12</rno>
+      <rstop name="">0</rstop>
+      <ssu>6</ssu>
+      <stime>1647</stime>
+      <htime>1653</htime>
+      <kake>1111111000000000</kake>
+      <fusei>0000000000000000</fusei>
+      <henkan>00000000</henkan>
+      <tban11>1</tban11>
+      <tban12></tban12>
+      <tban13></tban13>
+      <tban21>4</tban21>
+      <tban22></tban22>
+      <tban23></tban23>
+      <tban31>3</tban31>
+      <tban32></tban32>
+      <tban33></tban33>
+      <t_ban1>01</t_ban1>
+      <t_kin1>120</t_kin1>
+      <t_ban2></t_ban2>
+      <t_kin2>0</t_kin2>
+      <t_ban3></t_ban3>
+      <t_kin3>0</t_kin3>
+      <f_ban1>01</f_ban1>
+      <f_kin1>120</f_kin1>
+      <f_ban2>04</f_ban2>
+      <f_kin2>190</f_kin2>
+      <f_ban3></f_ban3>
+      <f_kin3>0</f_kin3>
+      <f_ban4></f_ban4>
+      <f_kin4>0</f_kin4>
+      <f_ban5></f_ban5>
+      <f_kin5>0</f_kin5>
+      <rt_ban1>14</rt_ban1>
+      <rt_kin1>300</rt_kin1>
+      <rt_nin1>1</rt_nin1>
+      <rt_ban2></rt_ban2>
+      <rt_kin2>0</rt_kin2>
+      <rt_nin2>0</rt_nin2>
+      <rf_ban1>14</rf_ban1>
+      <rf_kin1>270</rf_kin1>
+      <rf_nin1>2</rf_nin1>
+      <rf_ban2></rf_ban2>
+      <rf_kin2>0</rf_kin2>
+      <rf_nin2>0</rf_nin2>
+      <krf_ban1>14</krf_ban1>
+      <krf_kin1>120</krf_kin1>
+      <krf_nin1>1</krf_nin1>
+      <krf_ban2>13</krf_ban2>
+      <krf_kin2>190</krf_kin2>
+      <krf_nin2>3</krf_nin2>
+      <krf_ban3>34</krf_ban3>
+      <krf_kin3>360</krf_kin3>
+      <krf_nin3>7</krf_nin3>
+      <krf_ban4></krf_ban4>
+      <krf_kin4>0</krf_kin4>
+      <krf_nin4>0</krf_nin4>
+      <krf_ban5></krf_ban5>
+      <krf_kin5>0</krf_kin5>
+      <krf_nin5>0</krf_nin5>
+      <rt3_ban1>143</rt3_ban1>
+      <rt3_kin1>1230</rt3_kin1>
+      <rt3_nin1>4</rt3_nin1>
+      <rt3_ban2></rt3_ban2>
+      <rt3_kin2>0</rt3_kin2>
+      <rt3_nin2>0</rt3_nin2>
+      <rf3_ban1>134</rf3_ban1>
+      <rf3_kin1>440</rf3_kin1>
+      <rf3_nin1>2</rf3_nin1>
+      <rf3_ban2></rf3_ban2>
+      <rf3_kin2>0</rf3_kin2>
+      <rf3_nin2>0</rf3_nin2>
+      <tenko>晴</tenko>
+      <hako>3</hako>
+      <fuko1>南東</fuko1>
+      <fuko2>追い風</fuko2>
+      <fusoku>3</fusoku>
+      <kion>11.0</kion>
+      <suion>10.0</suion>
+      <ryusoku>000</ryusoku>
+      <suii>000</suii>
+      <mancho>0000</mancho>
+      <kancho>0000</kancho>
+      <rmei>予　　選　　　</rmei>
+      <chaku chk="1">
+        <teiban>1</teiban>
+        <toban group="40">4024</toban>
+        <name>井口　　佳典</name>
+        <seibetsu>1</seibetsu>
+        <chk>１</chk>
+        <rtime>1'49"3</rtime>
+        <cs>1</cs>
+        <st>.21</st>
+        <skriyu></skriyu>
+        <kim>逃げ</kim>
+      </chaku>
+      <chaku chk="2">
+        <teiban>4</teiban>
+        <toban group="42">4238</toban>
+        <name>毒島　　　誠</name>
+        <seibetsu>1</seibetsu>
+        <chk>２</chk>
+        <rtime>1'51"2</rtime>
+        <cs>4</cs>
+        <st>.21</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="3">
+        <teiban>3</teiban>
+        <toban group="44">4430</toban>
+        <name>永田　　秀二</name>
+        <seibetsu>1</seibetsu>
+        <chk>３</chk>
+        <rtime>1'53"5</rtime>
+        <cs>3</cs>
+        <st>.23</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="4">
+        <teiban>6</teiban>
+        <toban group="44">4424</toban>
+        <name>松尾　　昂明</name>
+        <seibetsu>1</seibetsu>
+        <chk>４</chk>
+        <rtime>1'53"8</rtime>
+        <cs>6</cs>
+        <st>.19</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="5">
+        <teiban>2</teiban>
+        <toban group="39">3955</toban>
+        <name>眞田　　英二</name>
+        <seibetsu>1</seibetsu>
+        <chk>５</chk>
+        <rtime>      </rtime>
+        <cs>2</cs>
+        <st>.37</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+      <chaku chk="6">
+        <teiban>5</teiban>
+        <toban group="38">3888</toban>
+        <name>山本　　英志</name>
+        <seibetsu>1</seibetsu>
+        <chk>６</chk>
+        <rtime>      </rtime>
+        <cs>5</cs>
+        <st>.18</st>
+        <skriyu></skriyu>
+        <kim></kim>
+      </chaku>
+    </record>
+  </table>
+</boatrace>

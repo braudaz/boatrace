@@ -67,6 +67,12 @@ def read_xml_before_info(file):
 
 	return games
 
+def read_xml_result(file):
+	xml = read_file(file)
+	root = ET.fromstring(xml)
+
+	table = root.find('table')
+
 if __name__ == '__main__':
 	read_xml_before_info('./snippet/before_info.xml')
 	read_xml_course('./snippet/course.xml')
