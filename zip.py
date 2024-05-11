@@ -9,4 +9,4 @@ def zip_folder(folder_path, output_path):
 
     print(f'Folder "{folder_path}" has been zipped as "{output_path}.zip"')
 
-zip_folder('download', 'download.zip')
+zip_folder('./download', 'download')
