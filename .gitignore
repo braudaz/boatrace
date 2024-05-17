@@ -100,3 +100,7 @@ dmypy.json
 cython_debug/
 
 download/
+data/
+tmp/
+logs/
+snippet/

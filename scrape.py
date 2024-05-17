@@ -6,7 +6,7 @@ import pickle
 import os
 import re
 
-scrape_dates = False
+scrape_dates = True
 scrape_players = True
 
 only_18 = False
