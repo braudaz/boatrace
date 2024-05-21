@@ -56,3 +56,13 @@ def get_model_path(fname):
 		if fname in f: return f
 
 	return fname
+
+async def request_to_json(request):
+    try:
+        data = await request.json()
+        return data
+    except Exception:
+        return {}
+
+def json_response(status: int, code : int, msg):
+    return {"status": status, "code": code, "msg": msg}

@@ -1,8 +1,22 @@
 openai_key = 'your_openai_api_key'
 
 local_xml_path = '/home/kusanagi/dev-sunacchiiis/DocumentRoot/_get_xmldata'
+
 scrape_username = 'sanspo02'
 scrape_password = 'DZZA4828'
+
+test_url = 'https://xml-sv.boatrace.jp/cms/race_main.xml'
+
+date_targets = {
+    'result': 'https://xml-sv.boatrace.jp/race/{date}/{place}/result.xml',
+    'before': 'https://xml-sv.boatrace.jp/race/{date}/{place}/before_info.xml',
+    'award': 'https://xml-sv.boatrace.jp/race/{date}/race_har.xml'
+}
+
+player_targets = {
+    'course': 'https://xml-sv.boatrace.jp/profile/{player}/course.xml',
+    'three': 'https://xml-sv.boatrace.jp/profile/{player}/3setu.xml'
+}
 
 raw_dat_path = './data/raw.dat'
 train_dat_path = './data/train.dat'

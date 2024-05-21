@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 from requests.auth import HTTPBasicAuth
 from tqdm import tqdm
+from config import *
 import requests
 import pickle
 import os
@@ -14,24 +15,8 @@ only_18 = False
 start_date = datetime(2012, 4, 12)
 end_date = datetime(2024, 5, 10)
 
-username = 'sanspo02'
-password = 'DZZA4828'
-
-test_url = 'https://xml-sv.boatrace.jp/cms/race_main.xml'
-
-date_targets = [
-    ('result', 'https://xml-sv.boatrace.jp/race/{date}/{place}/result.xml'),
-    ('before', 'https://xml-sv.boatrace.jp/race/{date}/{place}/before_info.xml'),
-    ('award', 'https://xml-sv.boatrace.jp/race/{date}/race_har.xml')
-]
-
-player_targets = [
-    ('course', 'https://xml-sv.boatrace.jp/profile/{player}/course.xml'),
-    ('three', 'https://xml-sv.boatrace.jp/profile/{player}/3setu.xml')    
-]
-
 def scrape(url, file):
-    response = requests.get(url, auth = HTTPBasicAuth(username, password))
+    response = requests.get(url, auth = HTTPBasicAuth(scrape_username, scrape_password))
 
     if response.status_code == 200 and file:
         with open(file, 'wb') as file:
@@ -55,7 +40,7 @@ if scrape_dates:
     for place in all_places:
         valid_dates = []
 
-        for target_name, target_url in date_targets:
+        for target_name, target_url in date_targets.items():
             if target_name == 'result':
                 date, all_dates = start_date, []
 
@@ -120,7 +105,7 @@ if scrape_players:
 
     print(f'- total {len(valid_players)} valid players found.')
 
-    for target_name, target_url in player_targets:
+    for target_name, target_url in player_targets.items():
         for player in valid_players:
             url = target_url.format(player = player)
             file = './download/{}_{}.xml'.format(target_name, player)

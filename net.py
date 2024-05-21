@@ -22,14 +22,17 @@ class Net(object):
         self.model = nn.DataParallel(self.model)
         print('* loaded neural net from {} on {}'.format(self.model_path, device))
 
-    def eval(self, states):
+    def eval(self, states, has_true = True):
         self.model.eval()
 
         input_batches = self._split_batches_(states)
         batch_pi = []
 
         for batch in input_batches:
-            before, player, history = self._parse_data_(batch, False)
+            if has_true:
+                before, player, history, _ = self._parse_data_(batch, has_true)
+            else:
+                before, player, history = self._parse_data_(batch, has_true)
 
             pi = self.model(before, player, history)
             pi = torch.exp(pi)
