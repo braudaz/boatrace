@@ -604,14 +604,17 @@ def blind_update(id_data, game_data, course_data):
 	now = datetime.now()
 
 	for jcd in jcd_map:
-		last_date_str = '2012-04-12'
+		last_date_str = None
 
 		for game_id in id_data[::-1]:
 			if game_id.startswith(jcd):
 				last_date_str = game_id.split('_')[1]
 				break
 
-		date = datetime.strptime(last_date_str, '%Y%m%d')		
+		if last_date_str is None: continue
+		date = datetime.strptime(last_date_str, '%Y%m%d')
+
+		print(f'* last date = {last_date_str} for jcd = {jcd}')
 
 		while date < now:
 			xmls = [
