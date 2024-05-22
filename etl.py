@@ -630,9 +630,12 @@ def blind_update(id_data, game_data, course_data):
 
 	for game_id in game_data:
 		before_info = game_data[game_id]['before']
+		if before_info is None: continue
 
 		for line_id, player_id, gender, weight, adj_weight, warm_time, tilt in before_info:
 			players.add(player_id)
+
+	print(f'* total {len(players)} players found')
 
 	for player_id in players:
 		src_path = player_targets['course'].format(player = player_id)
