@@ -29,8 +29,7 @@ async def predict(request: Request, response: Response, bk_tasks: BackgroundTask
 
 @app.post('/refresh_data')
 async def refresh_data(request: Request, response: Response, bk_tasks: BackgroundTasks):
-    blind_update(engine.id_data, engine.game_data, engine.course_data)
-    engine.refresh_data()
+    bk_tasks.add_task(refresh_proc)
 
     return json_response(200, 0, 'ok')
 
@@ -39,6 +38,10 @@ async def train(request: Request, response: Response, bk_tasks: BackgroundTasks)
     bk_tasks.add_task(train_proc)
 
     return json_response(200, 0, 'ok')
+
+def refresh_proc():
+    blind_update(engine.id_data, engine.game_data, engine.course_data)
+    engine.refresh_data()
 
 def train_proc():
     prepare_train_data()
