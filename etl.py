@@ -626,13 +626,18 @@ def blind_update(id_data, game_data, course_data):
 
 			date += timedelta(days = 1)
 
+	players = set()
+
 	for game_id in game_data:
-		before_info = game_data['before']
+		before_info = game_data[game_id]['before']
 
 		for line_id, player_id, gender, weight, adj_weight, warm_time, tilt in before_info:
-			src_path = player_targets['course'].format(player = player_id)
+			players.add(player_id)
 
-			if update_with_xml(game_data, course_data, 'course', 'url', src_path): print(f'- fetched {src_path}')
+	for player_id in players:
+		src_path = player_targets['course'].format(player = player_id)
+
+		if update_with_xml(game_data, course_data, 'course', 'url', src_path): print(f'- fetched {src_path}')
 
 	joblib.dump((game_data, course_data), raw_dat_path)
 
