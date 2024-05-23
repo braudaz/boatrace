@@ -48,4 +48,4 @@ def train_proc():
     train_ai(engine.net, 1, False, True)
 
 if __name__ == '__main__':
-    uvicorn.run(app = "api:app", host = '0.0.0.0', port = 8000, reload = False)
+    uvicorn.run(app = "api:app", host = '0.0.0.0', port = 1031, reload = False)
