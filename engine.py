@@ -57,15 +57,18 @@ class Engine():
 
 	def __get_player_names__(self, fetch_type, fetch_param):
 		if fetch_type == 'raw':
-			id_names = []
+			try:
+				id_names = []
 
-			for r in fetch_param['waku']:
-				id_names.append((r['teiban'], r['name']))
+				for r in fetch_param['waku']:
+					id_names.append((r['teiban'], r['name']))
 
-			id_names.sort(key = lambda x: x[0])
-			return [idn[1] for idn in id_names]
-		else:
-			return [f'選手{i}' for i in range(6)]
+				id_names.sort(key = lambda x: x[0])
+				return [idn[1] for idn in id_names]
+			except Exception:
+				pass
+		
+		return [f'選手{i}' for i in range(6)]
 
 	def __get_pi__(self, fetch_type, fetch_param, game_id):
 		state_ex = get_state(fetch_type, fetch_param, game_id, self.id_data, self.game_data, self.course_data)
