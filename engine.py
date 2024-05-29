@@ -107,6 +107,7 @@ class Engine():
 					json_response = True
 				)
 				ret = json.loads(llm_res)['justify']
+				ret = ret.replace('スタートコース', 'コース')
 
 				llm_ok = True
 				break
