@@ -14,7 +14,7 @@ justify_user_prompt_2 = """
 
 	The response JSON must be like the following:
 	{{
-		"justify": <The argument for why {comb} is the most promising. Don't use the word `チケット`. Format the text with paragraphs separated by \\n.>
+		"justify": <The argument for why {comb} is the most promising. Don't use the word `チケット`. Format the text with paragraphs separated by \n. Use players' names in explanation if they were specified in the tables.>
 	}}
 
 	Table 1: Performance statistics of players at {jcd} over the last three seasons.

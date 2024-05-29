@@ -46,12 +46,26 @@ class Engine():
 
 			print(prob_combs[0][1])
 
-			justify = self.__justify__(before_info, game_id, idx, prob_combs[0][1])
+			player_names = self.__get_player_names__(fetch_type, fetch_param)
+			justify = self.__justify__(before_info, game_id, idx, prob_combs[0][1], player_names)
+
 			ret['why'] = justify
 		else:
 			ret = {'code': -1, 'predict': {}, 'best': '', 'why': 'Before-game info not found.'}
 
 		return ret
+
+	def __get_player_names__(self, fetch_type, fetch_param):
+		if fetch_type == 'raw':
+			id_names = []
+
+			for r in fetch_param['waku']:
+				id_names.append((r['teiban'], r['name']))
+
+			id_names.sort(key = lambda x: x[0])
+			return [idn[1] for idn in id_names]
+		else:
+			return [f'選手{i}' for i in range(6)]
 
 	def __get_pi__(self, fetch_type, fetch_param, game_id):
 		state_ex = get_state(fetch_type, fetch_param, game_id, self.id_data, self.game_data, self.course_data)
@@ -64,8 +78,8 @@ class Engine():
 		else:
 			return None, None, None, None
 
-	def __justify__(self, before_info, game_id, idx, best_comb):
-		stats = get_statistics(before_info, game_id, idx, self.id_data, self.game_data, self.course_data)
+	def __justify__(self, before_info, game_id, idx, best_comb, player_names):
+		stats = get_statistics(before_info, game_id, idx, self.id_data, self.game_data, self.course_data, player_names)
 		if stats is None: return 'Before-game info not found'
 
 		general_stat, jcd_stat = stats

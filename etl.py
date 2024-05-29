@@ -480,7 +480,7 @@ def get_data_record(game_id, idx, id_data, game_data, course_data, for_train, fo
 		else:
 			return make_state_record(before_info, stime, history_info, course_data)
 
-def get_statistics(before_info, game_id, idx, id_data, game_data, course_data):	
+def get_statistics(before_info, game_id, idx, id_data, game_data, course_data, player_names):
 	jcd = game_id.split('_')[0]
 
 	records = [
@@ -496,16 +496,18 @@ def get_statistics(before_info, game_id, idx, id_data, game_data, course_data):
 	]
 	general_stats = [
 		{
+			'name': player_names[i],
 			'rate_of_1st_rank': 'NaN',
 			'rate_of_2nd_rank': 'NaN',
 			'rate_of_3rd_rank': 'NaN',
 			'rate_of_within_3rd_rank': 'NaN',
 			'average_start_timing': 'NaN'
 		}
-		for _ in range(6)
+		for i in range(6)
 	]
 	jcd_stats = [
 		{
+			'name': player_names[i],
 			'average_rank': 'NaN',
 			'rate_of_1st_rank': 'NaN',
 			'rate_of_2nd_rank': 'NaN',
