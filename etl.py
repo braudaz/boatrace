@@ -515,7 +515,7 @@ def get_statistics(before_info, game_id, idx, id_data, game_data, course_data, p
 			'rate_of_within_3rd_rank': 'NaN',
 			'average_arrival_time': 'NaN'
 		}
-		for _ in range(6)
+		for i in range(6)
 	]
 
 	lid = 0

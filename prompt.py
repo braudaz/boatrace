@@ -10,7 +10,7 @@ justify_user_prompt_2 = """
 	Give an argument for justifying why {comb} is the most promising ticket.
 	You must argue your justify in a persuasive and professional tone, based on the rules of boat racing and also the provided statistical tables.
 	The argument must be in Japanese.
-	Don't change your prediction, just clarify the argument.
+	Don't change your prediction, just clarify the argument. Don't use fake statistic numbers, only use numbers specified in the provided tables.
 
 	The response JSON must be like the following:
 	{{
