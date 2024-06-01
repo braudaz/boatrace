@@ -521,7 +521,7 @@ def get_statistics(before_info, game_id, idx, id_data, game_data, course_data, p
 	lid = 0
 
 	for line_id, player_id, gender, weight, adj_weight, warm_time, tilt in before_info:
-		course_info = course_data[player_id]
+		course_info = course_data.get(player_id)
 
 		if course_info is not None:
 			cid = lid + 1
