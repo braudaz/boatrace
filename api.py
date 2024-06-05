@@ -19,7 +19,7 @@ async def predict(request: Request, response: Response, bk_tasks: BackgroundTask
     if data is None: return json_response(200, -1, 'Invalid request params.')
 
     pred = engine.predict('raw', data, None)
-    return json_response(200, -1 + pred['code'], pred)
+    return json_response(200, pred['code'], pred)
 
 @app.post('/justify')
 async def justify(request: Request, response: Response, bk_tasks: BackgroundTasks):
@@ -27,7 +27,7 @@ async def justify(request: Request, response: Response, bk_tasks: BackgroundTask
     if data is None: return json_response(200, -1, 'Invalid request params.')
 
     just = engine.justify('raw', data, None)
-    return json_response(200, -1 + just['code'], just)
+    return json_response(200, just['code'], just)
 
 @app.post('/refresh_data')
 async def refresh_data(request: Request, response: Response, bk_tasks: BackgroundTasks):
