@@ -19,13 +19,15 @@ async def predict(request: Request, response: Response, bk_tasks: BackgroundTask
     if data is None: return json_response(200, -1, 'Invalid request params.')
 
     pred = engine.predict('raw', data, None)
+    return json_response(200, -1 + pred['code'], pred)
 
-    if pred['code'] == 0:
-        return json_response(200, 0, {
-            'predict': pred['predict'], 'best': pred['best'], 'why': pred['why']
-        })
-    else:
-        return json_response(200, -2, { 'why': pred['why'] })
+@app.post('/justify')
+async def justify(request: Request, response: Response, bk_tasks: BackgroundTasks):
+    data = await request_to_json(request)
+    if data is None: return json_response(200, -1, 'Invalid request params.')
+
+    just = engine.justify('raw', data, None)
+    return json_response(200, -1 + just['code'], just)
 
 @app.post('/refresh_data')
 async def refresh_data(request: Request, response: Response, bk_tasks: BackgroundTasks):
@@ -48,4 +50,4 @@ def train_proc():
     train_ai(engine.net, 1, False, True)
 
 if __name__ == '__main__':
-    uvicorn.run(app = "api:app", host = '0.0.0.0', port = 1031, reload = False)
+    uvicorn.run(app = "api:app", host = '0.0.0.0', port = 8000, reload = False)

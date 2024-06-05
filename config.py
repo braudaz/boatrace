@@ -1,4 +1,4 @@
-openai_key = 'your_openai_api_key'
+openai_key = 'your_openai_key'
 
 local_xml_path = '/home/kusanagi/dev-sunacchiiis/DocumentRoot/_get_xmldata'
 

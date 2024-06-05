@@ -23,6 +23,9 @@ class Engine():
 
 	def predict(self, fetch_type, fetch_param, game_id):
 		pi, before_info, game_id, idx = self.__get_pi__(fetch_type, fetch_param, game_id)
+		player_names = self.__get_player_names__(fetch_type, fetch_param)
+
+		extra_data = fetch_param.get('extra', '')
 
 		if pi is not None:
 			combs = list(itertools.permutations(list(range(6)), 3))
@@ -36,24 +39,50 @@ class Engine():
 
 			prob_combs.sort(key = lambda x: x[0], reverse = True)
 			
-			ret = {'code': 0, 'predict': {}, 'best': '', 'why': ''}
+			ret = {'code': 0, 'predict': {}, 'best': '', 'best_ex': '', 'why': ''}
+			
 			ret['best'] = prob_combs[0][1]
+			ret['best_ex'] = self.__adjust_prediction__(pi, prob_combs[0][1], player_names, extra_data)
 
 			prediction = ret['predict']
 
 			for prob, com in prob_combs[:10]:
 				prediction[com] = '{:.4f}'.format(prob)
 
-			print(prob_combs[0][1])
-
-			player_names = self.__get_player_names__(fetch_type, fetch_param)
-			justify = self.__justify__(before_info, game_id, idx, prob_combs[0][1], player_names)
+			print('best', ret['best'])
+			print('best_ex', ret['best_ex'])
+			
+			justify = self.__justify__(before_info, game_id, idx, ret['best_ex'], player_names, extra_data)
 
 			ret['why'] = justify
 		else:
-			ret = {'code': -1, 'predict': {}, 'best': '', 'why': 'Before-game info not found.'}
+			ret = {'code': -1, 'predict': {}, 'best': '', 'best_ex': '', 'why': 'Before-game info not found.'}
 
 		return ret
+
+	def justify(self, fetch_type, fetch_param, game_id):
+		state_ex = get_state(fetch_type, fetch_param, game_id, self.id_data, self.game_data, self.course_data)
+
+		extra_data = fetch_param.get('extra', '')
+		ticket = fetch_param.get('ticket', '')		
+
+		try:
+			segs = ticket.split('-')
+
+			for i in range(3):
+				t = int(segs[i])
+		except Exception:
+			return {'code': -1, 'why': 'Parameter "ticket" is invalid. Expected "x-y-z" format.'}
+
+		if state_ex is not None:
+			state, before_info, game_id, idx = state_ex
+
+			player_names = self.__get_player_names__(fetch_type, fetch_param)
+			justify = self.__justify__(before_info, game_id, idx, ticket, player_names, extra_data)
+
+			return {'code': 0, 'why': justify}
+		else:
+			return {'code': -2, 'why': 'Before-game info not found.'}
 
 	def __get_player_names__(self, fetch_type, fetch_param):
 		if fetch_type == 'raw':
@@ -62,6 +91,9 @@ class Engine():
 
 				for r in fetch_param['waku']:
 					id_names.append((r['teiban'], r['name']))
+
+				for _ in range(6 - len(id_names)):
+					id_names.append(('9', 'Unknown'))
 
 				id_names.sort(key = lambda x: x[0])
 				return [idn[1] for idn in id_names]
@@ -74,14 +106,65 @@ class Engine():
 		state_ex = get_state(fetch_type, fetch_param, game_id, self.id_data, self.game_data, self.course_data)
 
 		if state_ex is not None:
-			state, before_info, game_id, idx = state_ex			
+			state, before_info, game_id, idx = state_ex
+			
 			pi = self.net.eval([state], False)[0]
+			pi[:][len(before_info):] = 0
 
 			return pi, before_info, game_id, idx
 		else:
 			return None, None, None, None
 
-	def __justify__(self, before_info, game_id, idx, best_comb, player_names):
+	def __adjust_prediction__(self, pi, ticket, player_names, extra_data):
+		if extra_data:
+			messages = [
+				{
+					"role": "user",
+					"content": predict_user_prompt.format(
+						ticket = ticket,
+						matrix = self.__tabilize_pi__(pi),
+						content = extra_data
+					)
+				},
+				{
+					"role": "assistant",
+					"content": f"{{\n\t\"ticket\": \""
+				}
+			]
+			ret, llm_ok = None, False
+
+			for retry in range(5):
+				try:
+					llm_res = call_openai_block(
+						messages = messages,
+						system_prompt = predict_sys_prompt.format(
+							names = ', '.join([f'選手{i + 1} - {player_names[i]}' for i in range(6)])
+						),
+						model = gpt_4_model,
+						temperature = 0,
+						max_tokens = max_tokens,
+						json_response = True
+					)
+					ret = json.loads(llm_res)['ticket']
+					segs = ret.split('-')
+
+					for i in range(3):
+						t = int(segs[i])
+
+					llm_ok = True
+					break
+				except Exception as exc:
+					print('err', exc)
+					continue
+
+			if llm_ok:
+				return ret
+			else:
+				return ticket
+		else:
+			return ticket
+
+	def __justify__(self, before_info, game_id, idx, ticket, player_names, extra_data):
 		stats = get_statistics(before_info, game_id, idx, self.id_data, self.game_data, self.course_data, player_names)
 		if stats is None: return 'Before-game info not found'
 
@@ -95,15 +178,18 @@ class Engine():
 			},
 			{
 				"role": "assistant",
-				"content": f"{{\n\t\"ticket\": \"{best_comb}\"\n}}"
+				"content": f"{{\n\t\"ticket\": \"{ticket}\"\n}}"
 			},
 			{
 				"role": "user",
 				"content": justify_user_prompt_2.format(
-					comb = best_comb,
+					ticket = ticket,
 					jcd = jcd,
-					general_stat = self.__tablize__(general_stat),
-					jcd_stat = self.__tablize__(jcd_stat)
+					general_stat = self.__tabilize_stat__(general_stat),
+					jcd_stat = self.__tabilize_stat__(jcd_stat),
+					extra = justify_user_extra.format(
+						content = extra_data
+					) if extra_data else ''
 				)
 			},
 			{
@@ -128,7 +214,8 @@ class Engine():
 
 				llm_ok = True
 				break
-			except Exception:
+			except Exception as exc:
+				print(exc)
 				continue
 
 		if llm_ok:
@@ -136,7 +223,7 @@ class Engine():
 		else:
 			return 'AI failed to justify the claim.'
 
-	def __tablize__(self, stat):
+	def __tabilize_stat__(self, stat):
 		cols = list(stat[0].keys())		
 		table = 'player_number'
 
@@ -148,6 +235,20 @@ class Engine():
 
 			for c in cols:
 				table += '|' + stat[i][c]
+
+		return table
+
+	def __tabilize_pi__(self, pi):
+		table = 'rank/player'
+
+		for i in range(6):
+			table += f'|選手{i + 1}'
+
+		for r in range(6):
+			table += f'\nRank{r + 1}'
+
+			for i in range(6):
+				table += '|' + '{:.4f}'.format(pi[r][i])
 
 		return table
 
