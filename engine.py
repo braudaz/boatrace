@@ -109,7 +109,10 @@ class Engine():
 			state, before_info, game_id, idx = state_ex
 			
 			pi = self.net.eval([state], False)[0]
-			pi[:][len(before_info):] = 0
+
+			if fetch_type == 'raw':
+				for i, r in enumerate(fetch_param['waku']):
+					if r.get('kjo', '0') == '1': pi[:][i] = 0
 
 			return pi, before_info, game_id, idx
 		else:

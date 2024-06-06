@@ -418,7 +418,10 @@ def get_state(fetch_type, fetch_param, game_id, id_data, game_data, course_data)
 		before_info = []
 
 		for r in fetch_param['waku']:
-			before_info.append((r['teiban'], r['toban'], 1, 51.0, 0.0, 6.9, 0.0))
+			if r.get('kjo', '0') != '1':
+				before_info.append((r['teiban'], r['toban'], 1, 51.0, 0.0, 6.9, 0.0))
+			else:
+				before_info.append((r['teiban'], 'xxx', 0.0, 0.0, 0.0, 0.0, 0.0))
 
 		before_info.sort(key = lambda x: x[0])
 	else:
