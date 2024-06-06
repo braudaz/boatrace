@@ -114,6 +114,8 @@ class Engine():
 				for i, r in enumerate(fetch_param['waku']):
 					if r.get('kjo', '0') == '1': pi[:][i] = 0
 
+			print(pi)
+
 			return pi, before_info, game_id, idx
 		else:
 			return None, None, None, None
