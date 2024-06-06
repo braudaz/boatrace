@@ -39,6 +39,9 @@ class Engine():
 
 			prob_combs.sort(key = lambda x: x[0], reverse = True)
 			
+			print('comb', prob_combs)
+			print('pi', pi)
+
 			ret = {'code': 0, 'predict': {}, 'best': '', 'best_ex': '', 'why': ''}
 			
 			ret['best'] = prob_combs[0][1]
@@ -113,8 +116,6 @@ class Engine():
 			if fetch_type == 'raw':
 				for i, r in enumerate(fetch_param['waku']):
 					if r.get('kjo', '0') == '1': pi[:][i] = 0
-
-			print(pi)
 
 			return pi, before_info, game_id, idx
 		else:
